@@ -1,0 +1,26 @@
+{
+  "name": "ia-embadding-busca-semantica",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/raphaelmaracaipe/ia-embadding-busca-semantica#readme",
+  "bugs": {
+    "url": "https://github.com/raphaelmaracaipe/ia-embadding-busca-semantica/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raphaelmaracaipe/ia-embadding-busca-semantica.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@types/node": "^25.6.0",
+    "langchain": "^1.4.0",
+    "tsx": "^4.21.0",
+    "typescript": "^6.0.3"
+  }
+}
