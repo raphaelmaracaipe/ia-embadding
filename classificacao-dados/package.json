@@ -1,0 +1,24 @@
+{
+  "name": "classificacao-dados",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@langchain/google-genai": "^2.1.30",
+    "@langchain/qdrant": "^1.0.2",
+    "@qdrant/js-client-rest": "^1.17.0"
+  },
+  "devDependencies": {
+    "@langchain/core": "^1.1.45",
+    "@types/node": "^25.6.2",
+    "dotenv": "^17.4.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^6.0.3"
+  }
+}
