@@ -1,0 +1,20 @@
+{
+  "name": "aplicando-estudo",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "node dist/index.js",
+    "dev": "ts-node-esm index.ts",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@types/node": "^25.7.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^6.0.3"
+  }
+}
