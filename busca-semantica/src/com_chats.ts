@@ -142,8 +142,7 @@ async function startInteractiveChat() {
   // await indexDocuments();
 
   // Exemple 01
-  const question1 =
-    "Qual é a melhor linguagem de programação para data science?";
+  const question1 = "Qual é a melhor linguagem de programação para data science?";
   console.log(`📌 Pergunta 1: "${question1}"\n`);
   const answer1 = await generateResponseWithRag(question1);
 

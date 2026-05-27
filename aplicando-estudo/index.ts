@@ -1,1 +1,8 @@
-console.log("Projeto TypeScript configurado com sucesso!");
+import { Chat } from "./chats.js";
+
+async function main() {
+  const chat = new Chat();
+  chat.startInteractionChat();
+}
+
+main();
